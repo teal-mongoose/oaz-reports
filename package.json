@@ -1,0 +1,24 @@
+{
+  "name": "oaz-reports",
+  "version": "1.0.0",
+  "description": "oaz-reports",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "$env:GOOGLE_APPLICATION_CREDENTIALS=\"service-account-oaz-reports.json\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teal-mongoose/oaz-reports.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teal-mongoose/oaz-reports/issues"
+  },
+  "homepage": "https://github.com/teal-mongoose/oaz-reports#readme",
+  "dependencies": {
+    "@google-cloud/bigquery": "^2.0.6",
+    "date-fns": "^1.30.1"
+  }
+}
